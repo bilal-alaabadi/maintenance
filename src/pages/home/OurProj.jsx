@@ -9,9 +9,7 @@ import {
   FaBuilding, // تصميم موقع شركة مقاولات
   FaHome, // تصميم موقع عقارات
   FaWordpress, // تصميم موقع وورد بريس
-  FaJoomla, // تصميم موقع جوملا
   FaBook, // تصميم الكتب والمجلات والبروفايل
-  FaVideo, // تصميم الفيديوهات الإعلانية والموشن جرافيك
   FaPalette, // تصميم الهوية التجارية
 } from 'react-icons/fa';
 
@@ -58,7 +56,7 @@ const OurProj = () => {
           </div>
 
           {/* خدمة 4: تصميم موقع مكتب محاماة */}
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+          {/* <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
             <div className="flex justify-center mb-4">
               <FaBalanceScale className="text-4xl text-blue-500" />
             </div>
@@ -66,10 +64,10 @@ const OurProj = () => {
             <p className="text-gray-700 text-center">
               نقدم لكم خدمة تصميم وبرمجة موقع الكتروني لمكاتب المحاماة والاستشارات القانونية.
             </p>
-          </div>
+          </div> */}
 
           {/* خدمة 5: تصميم موقع مدرسة */}
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+          {/* <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
             <div className="flex justify-center mb-4">
               <FaSchool className="text-4xl text-blue-500" />
             </div>
@@ -77,10 +75,10 @@ const OurProj = () => {
             <p className="text-gray-700 text-center">
               نقدم لكم خدمة تصميم وبرمجة موقع الكتروني للمدارس الخاصة و المعاهد ومراكز التدريب.
             </p>
-          </div>
+          </div> */}
 
           {/* خدمة 6: تصميم موقع سياحي */}
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+          {/* <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
             <div className="flex justify-center mb-4">
               <FaPlane className="text-4xl text-blue-500" />
             </div>
@@ -88,10 +86,10 @@ const OurProj = () => {
             <p className="text-gray-700 text-center">
               نقدم لكم خدمة تصميم وبرمجة موقع لشركات ومكاتب السفر و السياحة.
             </p>
-          </div>
+          </div> */}
 
           {/* خدمة 7: تصميم موقع شركة مقاولات */}
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+          {/* <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
             <div className="flex justify-center mb-4">
               <FaBuilding className="text-4xl text-blue-500" />
             </div>
@@ -99,7 +97,7 @@ const OurProj = () => {
             <p className="text-gray-700 text-center">
               نقدم لكم خدمة تصميم وبرمجة موقع الكتروني لشركات المقاولات والانشاءات والاستشارات الهندسية و اعمال الديكور.
             </p>
-          </div>
+          </div> */}
 
           {/* خدمة 8: تصميم موقع عقارات */}
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
@@ -113,7 +111,7 @@ const OurProj = () => {
           </div>
 
           {/* خدمة 9: تصميم موقع وورد بريس */}
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+          {/* <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
             <div className="flex justify-center mb-4">
               <FaWordpress className="text-4xl text-blue-500" />
             </div>
@@ -121,7 +119,7 @@ const OurProj = () => {
             <p className="text-gray-700 text-center">
               نقدم لكم خدمة تصميم وبرمجة موقع الكتروني باستخدام نظام وورد بريس - نظام ادارة محتوى.
             </p>
-          </div>
+          </div> */}
 
           {/* خدمة 10: تصميم موقع جوملا */}
           {/* <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
