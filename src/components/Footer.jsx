@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaWhatsapp, FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaWhatsapp, FaFacebook, FaLinkedin, FaInstagram, FaSnapchat, FaTiktok } from 'react-icons/fa'; // استيراد الأيقونات
 import { FaXTwitter } from 'react-icons/fa6'; // استيراد أيقونة X الجديدة
 import { Link } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -81,7 +81,7 @@ const Footer = () => {
               className='flex items-center justify-center w-10 h-10 rounded-full bg-black text-white hover:bg-gray-800 transition-colors duration-300'
               aria-label="Twitter"
             >
-              <FaXTwitter className="text-xl" /> {/* أو <span className="text-xl font-bold">X</span> */}
+              <FaXTwitter className="text-xl" />
             </a>
 
             {/* Instagram Icon */}
@@ -93,6 +93,28 @@ const Footer = () => {
               aria-label="Instagram"
             >
               <FaInstagram className="text-xl" />
+            </a>
+
+            {/* Snapchat Icon */}
+            <a
+              href="https://www.snapchat.com/add/royasow?invite_id=USv8Bn1q&locale=ar_OM&share_id=pTUtLcyrTLauS5GWml_3bg&sid=f725486d26564b92a6f7fb1098eb7cef"
+              target="_blank"
+              rel="noopener noreferrer"
+              className='flex items-center justify-center w-10 h-10 rounded-full bg-yellow-400 text-white hover:bg-yellow-500 transition-colors duration-300'
+              aria-label="Snapchat"
+            >
+              <FaSnapchat className="text-xl" />
+            </a>
+
+            {/* TikTok Icon */}
+            <a
+              href="https://www.tiktok.com/@roya.sow?_t=ZS-8tEBXUbykem&_r=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className='flex items-center justify-center w-10 h-10 rounded-full bg-black text-white hover:bg-gray-800 transition-colors duration-300'
+              aria-label="TikTok"
+            >
+              <FaTiktok className="text-xl" />
             </a>
           </div>
         </div>
