@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import img from '../assets/file.png';
+import img from '../assets/رؤية.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,15 +28,17 @@ const Navbar = () => {
         {/* الجزء الأوسط: الشعار مع النص "رؤية" */}
         <div className="flex flex-col items-center space-y-2">
           <Link to="/">
-            <span className="block w-24 h-24 overflow-hidden rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <img
-                src={img}
-                alt="Logo"
-                className="h-full w-full object-cover transform hover:scale-105 transition-transform duration-300"
-              />
-            </span>
+          <span className="block w-48 h-48 transition-shadow duration-300">
+                <img
+                  src={img}
+                  alt="Logo"
+                  className="h-full w-full object-cover transform hover:scale-105 transition-transform duration-300"
+                />
+              </span>
+
+
           </Link>
-          <h1 className="text-4xl font-medium text-gray-800">رؤية</h1>
+          {/* <h1 className="text-4xl font-medium text-gray-800">رؤية</h1> */}
         </div>
 
         {/* الجزء الأيمن: روابط التواصل وقصتنا (يظهر فقط على الشاشات الكبيرة) */}

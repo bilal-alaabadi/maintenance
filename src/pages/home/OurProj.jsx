@@ -23,7 +23,7 @@ const OurProj = () => {
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">خدماتنا</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* خدمة 1: برمجة خاصة */}
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+          {/* <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
             <div className="flex justify-center mb-4">
               <FaCode className="text-4xl text-blue-500" />
             </div>
@@ -31,10 +31,10 @@ const OurProj = () => {
             <p className="text-gray-700 text-center">
               نقدم لكم خدمة تصميم وبرمجة المواقع برمجة خاصة حسب الطلب.
             </p>
-          </div>
+          </div> */}
 
           {/* خدمة 2: تصميم مواقع انترنت */}
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+          {/* <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
             <div className="flex justify-center mb-4">
               <FaLaptopCode className="text-4xl text-blue-500" />
             </div>
@@ -42,7 +42,7 @@ const OurProj = () => {
             <p className="text-gray-700 text-center">
               نحن نقدم لكم خدمة تصميم مواقع انترنت باحترافية عالية ونعتمد على أحدث وسائل تكنولوجيا تصميم المواقع الإلكترونية.
             </p>
-          </div>
+          </div> */}
 
           {/* خدمة 3: تصميم متجر إلكتروني */}
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
@@ -133,7 +133,7 @@ const OurProj = () => {
           </div> */}
 
           {/* خدمة 11: تصميم الكتب والمجلات والبروفايل */}
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+          {/* <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
             <div className="flex justify-center mb-4">
               <FaBook className="text-4xl text-blue-500" />
             </div>
@@ -141,7 +141,7 @@ const OurProj = () => {
             <p className="text-gray-700 text-center">
               نقدم لكم خدمة تصميم الكتب و المجلات والبروفايل للشركات والمؤسسات و الأفراد.
             </p>
-          </div>
+          </div> */}
 
           {/* خدمة 12: تصميم الفيديوهات الإعلانية والموشن جرافيك */}
           {/* <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
