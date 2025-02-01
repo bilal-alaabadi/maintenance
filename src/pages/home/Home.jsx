@@ -1,5 +1,4 @@
 import React from 'react'
-import { Plan } from './Plan'
 import Banner from './Banner'
 import Services from './Services'
 
@@ -8,7 +7,6 @@ const Home = () => {
     <>
     <Banner />
     <Services />
-    <Plan />
     </>
   )
 }

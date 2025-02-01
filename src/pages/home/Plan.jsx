@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import { FaWhatsapp } from 'react-icons/fa'; // استيراد الأيقونة بشكل صحيح
 
 export const Plan = () => {
