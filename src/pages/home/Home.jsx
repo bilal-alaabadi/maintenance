@@ -1,12 +1,14 @@
 import React from 'react'
+import { Plan } from './Plan'
 import Banner from './Banner'
-import OurProj from './OurProj'
+import Services from './Services'
 
 const Home = () => {
   return (
     <>
     <Banner />
-    <OurProj />
+    <Services />
+    <Plan />
     </>
   )
 }

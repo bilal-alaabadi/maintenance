@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import { FaWhatsapp } from 'react-icons/fa'; // استيراد الأيقونة بشكل صحيح
 
 export const Plan = () => {
@@ -96,6 +97,13 @@ export const Plan = () => {
         ))}
       </div>
     </div>
+=======
+
+export const Plan = () => {
+
+  return (
+   <></>
+>>>>>>> 81152128cb605215c31a108a548d8d6072fb5753
   );
 };
 
