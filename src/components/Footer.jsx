@@ -21,13 +21,13 @@ const Footer = () => {
             </a>
           </p>
           <a
-            href="https://wa.me/96877423855"
+            href="https://wa.me/message/NB734AMIDQODA1"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:text-blue-800 flex items-center ml-2"
           >
             <FaWhatsapp className="text-green-500 mr-2" />
-            +968 77423855
+            +968 97596380
           </a>
         </div>
 
@@ -53,7 +53,7 @@ const Footer = () => {
           <div className='social__icons flex space-x-4'>
             {/* Facebook Icon */}
             <a
-              href="https://www.facebook.com/profile.php?id=61572463585628&locale=ar_AR"
+              href="https://www.facebook.com/profile.php?id=61572348878996&locale=ar_AR"
               target="_blank"
               rel="noopener noreferrer"
               className='flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-300'
