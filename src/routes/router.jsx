@@ -1,19 +1,20 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Home from "../pages/home/Home";
+import Prodect from "../main/Prodect";
 import Storey from "../main/Storey";
-
-import Login from "../components/Login";
+import Kdmh from "../main/Kdmh";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
     children:[
         {path:"/",element:<Home/>},
-        {path:"/story",element:<Storey/>},
+        {path:"/prodect",element:<Prodect/>},
+        {path:"/kdmh",element:<Kdmh/>},
+        {path:"/storey",element:<Storey/>},
     ]
   },
-  {path:"/login",element:<Login />}
 ]);
 
 export default router;

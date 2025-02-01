@@ -1,9 +1,10 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FaWhatsapp, FaFacebook, FaLinkedin, FaInstagram, FaSnapchat, FaTiktok } from 'react-icons/fa'; // استيراد الأيقونات
+import { FaXTwitter } from 'react-icons/fa6'; // استيراد أيقونة X الجديدة
+import { Link } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Footer = () => {
-<<<<<<< HEAD
   return (
     <>
       <footer className='section__container footer__container'>
@@ -20,13 +21,13 @@ const Footer = () => {
             </a>
           </p>
           <a
-            href="https://wa.me/message/NB734AMIDQODA1"
+            href="https://wa.me/96877423855"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:text-blue-800 flex items-center ml-2"
           >
             <FaWhatsapp className="text-green-500 mr-2" />
-            +968 97596380
+            +968 77423855
           </a>
         </div>
 
@@ -52,7 +53,7 @@ const Footer = () => {
           <div className='social__icons flex space-x-4'>
             {/* Facebook Icon */}
             <a
-              href="https://www.facebook.com/profile.php?id=61572348878996&locale=ar_AR"
+              href="https://www.facebook.com/profile.php?id=61572463585628&locale=ar_AR"
               target="_blank"
               rel="noopener noreferrer"
               className='flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-300'
@@ -124,30 +125,6 @@ const Footer = () => {
       </div>
     </>
   );
-=======
-    return (
-        <footer>
-            <div className="container">
-                <p className="mb-2">© 2025 وصل - خدمات فورية بجودة عالية.</p>
-                <p className="mb-3">
-                    <a href="#">سياسة الخصوصية</a> |
-                    <a href="#">الشروط والأحكام</a>
-                </p>
-                <div className="social-icons">
-                    <a href="https://www.instagram.com/wasll_link" target="_blank" className="text-white mx-2">
-                        <FontAwesomeIcon icon={faInstagram} size="lg" />
-                    </a>
-                    <a href="https://twitter.com/wasll_link" target="_blank" className="text-white mx-2">
-                        <FontAwesomeIcon icon={faTwitter} size="lg" />
-                    </a>
-                    <a href="https://www.linkedin.com/company/wasll" target="_blank" className="text-white mx-2">
-                        <FontAwesomeIcon icon={faLinkedin} size="lg" />
-                    </a>
-                </div>
-            </div>
-        </footer>
-    );
->>>>>>> 81152128cb605215c31a108a548d8d6072fb5753
 };
 
 export default Footer;
