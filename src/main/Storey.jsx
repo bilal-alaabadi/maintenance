@@ -2,7 +2,7 @@ import React from 'react';
 import img from '../assets/undraw_trip_rh66 (1).png'
 const Storey = () => {
   return (
-    <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8" >
       <div className="max-w-7xl mx-auto">
         {/* العنوان الرئيسي */}
         <h1 className="text-5xl font-bold text-center text-gray-800 mb-12">
@@ -21,7 +21,7 @@ const Storey = () => {
           </div>
 
           {/* النص */}
-          <div className="space-y-8">
+          <div className="space-y-8" dir='rtl'>
             <h2 className="text-3xl font-bold text-gray-800">من نحن؟</h2>
             <p className="text-lg text-gray-700 leading-relaxed">
               نحن فريق من المحترفين الملتزمين بتحويل الأفكار إلى واقع ملموس. بدأنا رحلتنا برؤية واضحة: تقديم حلول تكنولوجية مبتكرة تساعد الشركات والأفراد على النمو والنجاح.
@@ -33,7 +33,7 @@ const Storey = () => {
         </div>
 
         {/* قسم المهمة والرؤية */}
-        <div className="mt-20">
+        <div className="mt-20" dir='rtl'>
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
             مهمتنا ورؤيتنا
           </h2>
@@ -47,7 +47,7 @@ const Storey = () => {
             </div>
 
             {/* الرؤية */}
-            <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+            <div className="bg-white p-8 rounded-lg shadow-lg text-center" >
               <h3 className="text-2xl font-bold text-gray-800 mb-4">رؤيتنا</h3>
               <p className="text-lg text-gray-700">
                 أن نكون الشريك المفضل في مجال التكنولوجيا والتصميم في المنطقة.
@@ -57,7 +57,7 @@ const Storey = () => {
         </div>
 
         {/* قسم القيم */}
-        <div className="mt-20">
+        <div className="mt-20" dir='rtl'>
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
             قيمنا
           </h2>

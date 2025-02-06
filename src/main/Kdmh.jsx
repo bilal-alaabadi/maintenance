@@ -4,18 +4,18 @@ import img from '../assets/undraw_professor_d7zn (1).png'; // استيراد ا�
 
 const Kdmh = () => {
   return (
-    <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="pb-48 bg-gray-100 py-12 px-4 sm:px-6 lg:px-8" dir='rtl'>
       <div className="max-w-7xl mx-auto bg-white rounded-lg shadow-lg p-8">
         {/* استخدام grid لتقسيم الصفحة */}
+            <h1 className="text-6xl font-bold text-gray-800 mb-8 text-center" >
+              خدماتنا
+            </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* القسم الأيسر: النص */}
           <div>
-            <h1 className="text-4xl font-bold text-gray-800 mb-8">
-              خدماتنا
-            </h1>
 
             {/* وصف الخدمات */}
-            <div className="space-y-6">
+            <div className="space-y-6" >
               <p className="text-lg text-gray-700 leading-relaxed">
                 نقدم مجموعة متنوعة من الخدمات التي تساعدك على تحقيق أهدافك. سواء كنت بحاجة إلى تصميم مواقع إلكترونية، تطوير تطبيقات، أو خدمات تسويق رقمي، نحن هنا لمساعدتك.
               </p>
@@ -26,8 +26,8 @@ const Kdmh = () => {
             </div>
 
             {/* قائمة الخدمات */}
-            <div className="mt-12">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">خدماتنا الرئيسية</h2>
+            <div className="mt-12" >
+              <h2 className="text-2xl font-bold text-gray-800 mb-6" >خدماتنا الرئيسية</h2>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <span className="text-green-500 mr-2">✔</span>
@@ -49,7 +49,7 @@ const Kdmh = () => {
             </div>
 
             {/* معلومات التواصل */}
-            <div className="mt-12">
+            <div className="mt-12" >
               <h2 className="text-2xl font-bold text-gray-800 mb-6">تواصل معنا</h2>
               <div className="space-y-4">
                 <p className="text-lg text-gray-700 flex items-center">
@@ -78,15 +78,7 @@ const Kdmh = () => {
                 </p>
               </div>
             </div>
-
-            {/* دعوة للعمل (Call to Action) */}
-            <div className="mt-12 text-center md:text-left">
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors duration-300">
-                تواصل معنا الآن
-              </button>
-            </div>
           </div>
-
           {/* القسم الأيمن: الصورة */}
           <div className="flex justify-center md:justify-end">
             <img

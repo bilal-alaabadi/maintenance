@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #ed3849;
+  --primary-color: #079CBA;
   --primary-color-dark: #d23141;
   --primary-color-light: #eff6ff;
   --text-dark: #0f172a;
@@ -177,7 +177,7 @@ nav {
 
 .categories__grid {
   max-width: var(--max-width-900);
-  margin: auto;
+  margin: auto; 
   margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);

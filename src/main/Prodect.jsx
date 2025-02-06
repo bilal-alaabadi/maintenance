@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Product = () => {
   return (
-    <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="pb-48 pt-28 bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto bg-white rounded-lg shadow-lg p-8">
         {/* استخدام grid لتقسيم الصفحة */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* القسم الأيسر: النص */}
-          <div>
+          <div dir='rtl'>
             <h1 className="text-4xl font-bold text-gray-800 mb-8">
               صناعة المواقع الإلكترونية
             </h1>
