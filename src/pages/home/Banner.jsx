@@ -2,7 +2,7 @@ import React from 'react'
 import timings from '../../assets/undraw_programming_65t2 (3).png'
 const Banner = () => {
   return (
-    <div className=" header__container py-8">
+    <div className=" header__container py-8 p-5">
     <div className="header__content z-30 text-right ">
     <h1 className="text-gray-800 text-4xl font-bold mt-4 mb-6 font-sans leading-tight tracking-tight" dir="rtl">
     نحو حلول تقنية مبتكرة لتطوير أعمالك</h1>
