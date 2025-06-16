@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import img from '../assets/رؤية-1.png';
+import img from '../assets/WhatsApp_Image_2025-05-31_at_12.03.23_PM-removebg-preview.png';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,9 +15,9 @@ const Navbar = () => {
       <nav className='max-w-screen-2xl mx-auto px-10 py-4 flex justify-between items-center'>
         {/* الجزء الأيسر: روابط التنقل (يظهر فقط على الشاشات الكبيرة) */}
         <ul className='hidden md:flex space-x-4 font-black text-2xl'>
-          <li className='link hover:text-blue-600 transition-colors duration-300'>
+          {/* <li className='link hover:text-blue-600 transition-colors duration-300'>
             <Link to="/prodect">المنتجات</Link>
-          </li>
+          </li> */}
           <li className='link hover:text-blue-600 transition-colors duration-300'>
             <Link to="/kdmh">الخدمات</Link>
           </li>
@@ -29,7 +30,7 @@ const Navbar = () => {
               <img
                 src={img}
                 alt="Logo"
-                className="max-w-[150px] w-full"
+                className=" w-48 h-46"
               />
             </span>
           </Link>
@@ -37,9 +38,16 @@ const Navbar = () => {
 
         {/* الجزء الأيمن: روابط التنقل (يظهر فقط على الشاشات الكبيرة) */}
         <ul className='hidden md:flex space-x-4 font-black text-2xl'>
-          <li className='link hover:text-blue-600 transition-colors duration-300'>
-            <Link to="/Kdmh">التواصل</Link>
-          </li>
+        <li className='link hover:text-blue-600 transition-colors duration-300 flex items-center'>
+          <a 
+            href="https://wa.me/96896294630" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center"
+          >
+            التواصل
+          </a>
+        </li>
           <li className='link hover:text-blue-600 transition-colors duration-300'>
             <Link to="/storey">قصتنا</Link>
           </li>
@@ -60,15 +68,21 @@ const Navbar = () => {
       {isMenuOpen && (
         <nav className="md:hidden flex items-center justify-center bg-white">
           <ul className="flex flex-col items-center justify-center space-y-4 font-black text-xl px-6 py-4">
-            <li className='link hover:text-blue-600 transition-colors duration-300'>
+            {/* <li className='link hover:text-blue-600 transition-colors duration-300'>
               <Link to="/prodect">المنتجات</Link>
-            </li>
+            </li> */}
             <li className='link hover:text-blue-600 transition-colors duration-300'>
               <Link to="/kdmh">الخدمات</Link>
             </li>
             <li className='link hover:text-blue-600 transition-colors duration-300'>
-              <Link to="/Kdmh">التواصل</Link>
-            </li>
+ <a 
+            href="https://wa.me/96896294630" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center"
+          >
+            التواصل
+          </a>            </li>
             <li className='link hover:text-blue-600 transition-colors duration-300'>
               <Link to="/storey">قصتنا</Link>
             </li>

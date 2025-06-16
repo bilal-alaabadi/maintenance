@@ -1,5 +1,4 @@
 import React from 'react';
-import img from '../assets/undraw_in-the-zone_07y7 (1).png';
 import { Link } from 'react-router-dom';
 
 const Product = () => {
@@ -58,13 +57,13 @@ const Product = () => {
           </div>
 
           {/* القسم الأيمن: الصورة */}
-          <div className="flex justify-center md:justify-end">
+          {/* <div className="flex justify-center md:justify-end">
             <img
               src={img}
               alt="صناعة المواقع الإلكترونية"
               className="w-full max-w-md rounded-lg "
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
